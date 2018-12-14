@@ -73,7 +73,6 @@
                 <nav class="nav nav-pills nav-fill flex-column">
                     <a class="btn mb-2 mt-3 <?php if($title=='Index') echo 'btn-primary'; else {echo 'btn-secondary' ;} ?>" href="index.php">Dashboard</a>
                     <a class="btn mb-2 <?php if($title=='Modules') echo 'btn-primary'; else {echo 'btn-secondary' ;} ?>" href="modules.php">Modules</a>
-                    <a class="btn mb-2 <?php if($title=='Exams') echo 'btn-primary'; else {echo 'btn-secondary' ;} ?>" href="exams.php">Exams</a>
                     <a class="btn mb-2 <?php if($title=='Personal Information') echo 'btn-primary'; else {echo 'btn-secondary' ;} ?>" href="studentinfo.php">Personal Information</a>
                     <a class="btn mb-2 <?php if($title=='Timetable') echo 'btn-primary'; else {echo 'btn-secondary' ;} ?>" href="timetable.php">Timetable</a>
                 </nav>

@@ -22,10 +22,6 @@ include 'layout/header.php';?>
           <th><?php echo $_SESSION["course"] ?></th>
         </tr>
         <tr>
-          <th>Accommodation</th>
-          <th>...</th>
-        </tr>
-        <tr>
           <th>Email Address</th>
           <th><?php echo $_SESSION["email"] ?></th>
         </tr>
