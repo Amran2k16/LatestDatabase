@@ -38,8 +38,6 @@
             }
         }
     }
-    echo "All modules enrolled in : ";
-    echo json_encode($modulesEnrolledIn);
     
     // $sql = "SELECT * FROM Module WHERE Title LIKE '%".$search_value."%' ORDER BY $sortBy";
     $sql = "SELECT * FROM Module WHERE Title LIKE ? ORDER BY ?";
