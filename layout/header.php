@@ -1,7 +1,6 @@
 <?php
     session_start();
 
-    $config['base_url'] = 'http://localhost/database/';
     if(!isset($_SESSION['userID']))
     {
         // not logged in
